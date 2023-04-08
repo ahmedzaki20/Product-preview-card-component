@@ -1,0 +1,37 @@
+.container .col .branding {
+  letter-spacing: 10px;
+}
+.img {
+  background-image: url(../img/image-product-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+section {
+  height: 100vh;
+  background-color: bisque;
+}
+.content {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+}
+@media (max-width: 768px) {
+  .img {
+    background-image: url(../img/image-product-mobile.jpg);
+    height: 300px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
